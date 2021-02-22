@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import moment from 'moment';
 import { context } from '../../App';
-import { Form, Input, Button, DatePicker } from 'antd';
+import { Form, Input, Button, DatePicker, Alert } from 'antd';
 
 const layout = {
   labelCol: { span: 8 },
@@ -14,7 +14,8 @@ const tailLayout = {
 
 const InputForm = () => {
 
-    const Context = useContext(context)
+    const Context = useContext(context);
+    const [success, setSuccess ] = React.useState(0);
 
     const onFinish = (values ) => {
         const start = moment(values.start).format("YYYY-MM-DD");
@@ -29,6 +30,12 @@ const InputForm = () => {
         }
 
         Context.timelineDispatch({type : "add", payload : body });
+        
+        setSuccess(true);
+        setTimeout(() => {
+            setSuccess(false);
+        },[5000]);
+
         console.log('Success:', values);
     };
 
@@ -80,7 +87,9 @@ const InputForm = () => {
                         Create a Entry
                     </Button>
                 </Form.Item>
+                {success && <Alert type="success" message="Timeline added!"/>}
             </Form>
+        
         </div>
     )
 }
