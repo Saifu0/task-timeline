@@ -1,0 +1,142 @@
+[
+    {
+        "id" : "1",
+        "name" : "Scope of engagement",
+        "start" : "2021-02-08",
+        "end" : "2021-02-15",
+        "progress" : 100
+    },
+    {
+        "id" : "2",
+        "name" : "Planning Session",
+        "start" : "2021-02-15",
+        "end" : "2021-02-24",
+        "progress" : 80
+    },
+    {
+        "id" : "3",
+        "name" : "Execution Session",
+        "start" : "2021-02-20",
+        "end" : "2021-02-27",
+        "progress" : 30
+    },
+    {
+        "id" : "4",
+        "name" : "Guest confirmation",
+        "start" : "2021-02-26",
+        "end" : "2021-03-05",
+        "progress" : 0
+    },
+    {
+        "id" : "5",
+        "name" : "Event metadata",
+        "start" : "2021-03-01",
+        "end" : "2021-03-08",
+        "progress" : 0
+    },
+    {
+        "id" : "6",
+        "name" : "Platform setup",
+        "start" : "2021-03-03",
+        "end" : "2021-03-10",
+        "progress" : 0
+    },
+    {
+        "id" : "7",
+        "name" : "Landing page",
+        "start" : "2021-03-05",
+        "end" : "2021-03-12",
+        "progress" : 0
+    },
+    {
+        "id" : "8",
+        "name" : "Promotion Email (EDMS)",
+        "start" : "2021-03-12",
+        "end" : "2021-03-19",
+        "progress" : 0
+    },
+    {
+        "id" : "9",
+        "name" : "Registration Page",
+        "start" : "2021-03-08",
+        "end" : "2021-03-15",
+        "progress" : 0
+    },
+    {
+        "id" : "10",
+        "name" : "Guest onboarding",
+        "start" : "2021-03-15",
+        "end" : "2021-03-22",
+        "progress" : 0
+    },
+    {
+        "id" : "11",
+        "name" : "Guest live cards",
+        "start" : "2021-03-18",
+        "end" : "2021-03-25",
+        "progress" : 0
+    },
+    {
+        "id" : "12",
+        "name" : "Mic Test & QA",
+        "start" : "2021-03-22",
+        "end" : "2021-03-28",
+        "progress" : 0
+    },
+    {
+        "id" : "13",
+        "name" : "Reg Email Sequence",
+        "start" : "2021-03-28",
+        "end" : "2021-04-04",
+        "progress" : 30
+    },
+    {
+        "id" : "14",
+        "name" : "Storyboard / Table Read",
+        "start" : "2021-03-24",
+        "end" : "2021-03-30",
+        "progress" : 0
+    },
+    {
+        "id" : "15",
+        "name" : "Slides Production",
+        "start" : "2021-03-25",
+        "end" : "2021-04-02",
+        "progress" : 0
+    },
+    {
+        "id" : "16",
+        "name" : "Virtual Background",
+        "start" : "2021-03-25",
+        "end" : "2021-04-02",
+        "progress" : 0
+    },
+    {
+        "id" : "17",
+        "name" : "Panelist Access",
+        "start" : "2021-03-25",
+        "end" : "2021-04-01",
+        "progress" : 0
+    },
+    {
+        "id" : "18",
+        "name" : "Setup of Polls & Live Q&A",
+        "start" : "2021-03-25",
+        "end" : "2021-04-02",
+        "progress" : 0
+    },
+    {
+        "id" : "19",
+        "name" : "Delivery of Slides",
+        "start" : "2021-03-25",
+        "end" : "2021-04-03",
+        "progress" : 0
+    },
+    {
+        "id" : "20",
+        "name" : "Slide QA",
+        "start" : "2021-03-26",
+        "end" : "2021-04-05",
+        "progress" : 0
+    }
+]
