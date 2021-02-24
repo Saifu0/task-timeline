@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import moment from 'moment';
 import { context } from '../../App';
 import { Form, Input, Button, DatePicker, Alert } from 'antd';
+import { appendSpreadsheet } from '../../data/GoogleSheetAPI';
 
 const layout = {
   labelCol: { span: 8 },
@@ -29,12 +30,14 @@ const InputForm = () => {
             progress : values.progress
         }
 
-        Context.timelineDispatch({type : "add", payload : body });
+        // Context.timelineDispatch({type : "add", payload : body });
+        appendSpreadsheet(body);
         
         setSuccess(true);
         setTimeout(() => {
             setSuccess(false);
-        },[5000]);
+            window.location.reload();
+        },[1000]);
 
         console.log('Success:', values);
     };
